@@ -119,7 +119,6 @@
 //     total = total + 1;
 // }
 // console.log(total)
-// console.log(total)
 
 // // break and continue
 // // do while loop
