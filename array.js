@@ -67,6 +67,7 @@
 //// FOR OF AND FOR IN LOOP ******************************************************************
 
 const array1 = [1,2,3,5,6,7]
+console.log(first)
 //// FOR OF LOOP
 
 // for(let arr of array1)
