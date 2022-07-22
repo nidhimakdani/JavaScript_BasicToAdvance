@@ -50,4 +50,40 @@ const person = {
 
 // console.log(Object.keys(person))
 
-//// 
+//// Computed objects 
+// let key = 10
+// let value = "hello"
+// const obj = {
+//     [key] : value,
+// }
+// console.log(obj)
+
+//////////////////////////// SPRED OPERATOR IN ARRAY AND OBJECT ---------------------------------
+
+//// same as array
+//// clone copy and iterate
+
+/////   OBJECT DESTRUCTURING 
+
+// let{name, age} = person  // declaring two variables together and getting values from object
+// console.log(name)
+
+// const users = [
+//     {}
+// ] object in arrau
+
+// for(let user of users){
+//     console.log(user.id)
+// }
+
+
+/// nested destructuring
+const users = [
+    {id:1,name:'nidhi'},
+    {id:2,name:'shivangi'},
+    {id:3,name:'kashish'}
+]
+
+const [{name},,{id}] = users;
+console.log(name)
+console.log(id)

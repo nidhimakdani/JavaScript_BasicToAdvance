@@ -1,0 +1,55 @@
+let and var 
+if you declare variable using var and if you use that like...
+
+clg('hello')
+var abc = 'hello' /////// output will be undefined no error 
+
+but 
+in case of let you will get error
+
+****************************************************************************************
+
+lexical scope 
+get data from outside your scope or upper scope is automatically
+
+*****************************************************************************************
+
+Block scope(let and const) vs function scope(var)
+let abc
+{
+    abc
+}// not alowed
+
+we can use var outside the block
+
+********************************************************************************************
+default parameter
+function add(a,b=10)
+{
+    return a + b;
+}
+clg(add(4))
+
+**********************************************************************************************
+Rest parameter 
+function add(a,b,c){
+    clg(a)
+    clg(b)
+    clg(c)
+}
+add(3,5,8,8,88,8,8,9)
+///// exept frist three rest will ignore
+now..
+if you want to solve this use rest parameter
+function add(a,b,...c) // will give array of all leftout numbers 
+
+************************************************************************************************
+parameter destructuring 
+
+*************************************************************************************************
+
+callback function 
+we'll take function as input and gonna call it 
+fun2()
+fun(callback){callback('nidhi'))}
+fun(fun2)
