@@ -53,3 +53,7 @@ we'll take function as input and gonna call it
 fun2()
 fun(callback){callback('nidhi'))}
 fun(fun2)
+
+******************************************************************************************************
+sorting dosn't work properly for numbers because it sorts according to Ascci value 
+ 
