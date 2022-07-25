@@ -114,11 +114,11 @@
 // }
 // console.log(i)
 // // for loop
-// let num =10
-// for(let i = 1; i<=num ; i++){
-//     total = total + 1;
-// }
-// console.log(total)
+let num =10
+for(let i = 1; i<=num ; i++){
+    total = total + 1;
+}
+console.log(total)
 
 // // break and continue
 // // do while loop
